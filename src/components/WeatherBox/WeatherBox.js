@@ -22,7 +22,6 @@ const WeatherBox = props => {
           setError(true);
           return;
         }
-
         const preparedData = {
           city: data.name,
           temp: data.main.temp,
@@ -42,8 +41,6 @@ const WeatherBox = props => {
       })
 
   },[])
-
-
 
   return (
     <section>
